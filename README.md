@@ -49,7 +49,7 @@ Dataset dan file hasil ekstraksi/training tidak disertakan langsung karena ukura
 
 Model dievaluasi menggunakan dataset uji dengan hasil berikut:
 - Accuracy: ±97%
-- ![Hasil Evaluasi](Matrix.png)
+![Hasil Evaluasi](Matrix.png)
 
 ## 📚 Dependensi
 
