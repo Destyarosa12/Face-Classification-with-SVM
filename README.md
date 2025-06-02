@@ -24,8 +24,8 @@ Proyek ini merupakan implementasi sistem pengenalan wajah dan klasifikasi untuk 
 Dataset dan file hasil ekstraksi/training tidak disertakan langsung karena ukurannya besar. Silakan unduh melalui tautan berikut:
 
 - 📁 Dataset & Augmentasi: [🔗 [Link Google Drive](https://drive.google.com/drive/folders/1woVdKpMC7AxBUeG_vqVV_LHEkuSLuLwr?usp=sharing)](#) 
-- 📄 face_data.pkl: [🔗 Link Google Drive](#)
-- 🧠 model_svm.pkl: [🔗 Link Google Drive](#)
+- 📄 face_data.pkl: [🔗 [Link Google Drive](https://drive.google.com/file/d/1P0WtgUqOMuPli5fD0FPJmOm_-n9njnVP/view?usp=sharing)](#)
+- 🧠 svm_classifier.pkl: [🔗 [Link Google Drive](https://drive.google.com/file/d/1DJW8uOLWEXecC8ScKJE5WaRcsLoUSW6r/view?usp=drive_link)](#)
 
 ## ⚙️ Cara Menjalankan
 
@@ -44,3 +44,15 @@ Dataset dan file hasil ekstraksi/training tidak disertakan langsung karena ukura
 6. Jalankan sistem klasifikasi wajah secara real-time:
    ```bash
    python realtime.py
+
+## 🧪 Hasil Evaluasi
+
+Model dievaluasi menggunakan dataset uji dengan hasil berikut:
+- Accuracy: ±97%
+- 
+
+## 📚 Dependensi
+
+Semua dependensi tercantum di file `requirements.txt`:
+```bash
+pip install -r requirements.txt
