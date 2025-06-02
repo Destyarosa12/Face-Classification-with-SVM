@@ -11,9 +11,9 @@ Proyek ini merupakan implementasi sistem pengenalan wajah dan klasifikasi untuk 
 - 📊 Evaluasi performa model menggunakan confusion matrix dan classification report
 
 ## 📁 Struktur File
-├── dataset_augmented/ # Folder dataset (tidak disertakan di repo)
-├── extract_data.py # Ekstraksi face encoding dari dataset
-├── train_model.py # Training model klasifikasi dengan SVM
-├── realtime_classifier.py # Sistem klasifikasi wajah secara real-time
-├── face_data.pkl # Hasil encoding wajah (dibuat saat runtime)
-├── model_svm.pkl # Model hasil training (dibuat saat runtime)
+- ├── dataset_augmented/ # Folder dataset (tidak disertakan di repo)
+- ├── extract_data.py # Ekstraksi face encoding dari dataset
+- ├── train_model.py # Training model klasifikasi dengan SVM
+- ├── realtime_classifier.py # Sistem klasifikasi wajah secara real-time
+- ├── face_data.pkl # Hasil encoding wajah (dibuat saat runtime)
+- ├── model_svm.pkl # Model hasil training (dibuat saat runtime)
