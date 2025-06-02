@@ -17,3 +17,30 @@ Proyek ini merupakan implementasi sistem pengenalan wajah dan klasifikasi untuk 
 - ├── realtime_classifier.py # Sistem klasifikasi wajah secara real-time
 - ├── face_data.pkl # Hasil encoding wajah (dibuat saat runtime)
 - ├── model_svm.pkl # Model hasil training (dibuat saat runtime)
+
+
+## 📦 Dataset & Model
+
+Dataset dan file hasil ekstraksi/training tidak disertakan langsung karena ukurannya besar. Silakan unduh melalui tautan berikut:
+
+- 📁 Dataset & Augmentasi: [🔗 [Link Google Drive](https://drive.google.com/drive/folders/1woVdKpMC7AxBUeG_vqVV_LHEkuSLuLwr?usp=sharing)](#) 
+- 📄 face_data.pkl: [🔗 Link Google Drive](#)
+- 🧠 model_svm.pkl: [🔗 Link Google Drive](#)
+
+## ⚙️ Cara Menjalankan
+
+1. Pastikan semua dependensi sudah terinstall:
+   ```bash
+   pip install face_recognition opencv-python scikit-learn numpy
+2. Jalankan proses augmentasi data:
+   ```bash
+   python augmentasi.py
+4. Jalankan proses ekstraksi encoding wajah:
+   ```bash
+   python extract_face_data.py
+5. Latih model SVM menggunakan data encoding:
+   ```bash
+   python train.py
+6. Jalankan sistem klasifikasi wajah secara real-time:
+   ```bash
+   python realtime.py
