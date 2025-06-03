@@ -35,13 +35,13 @@ Dataset dan file hasil ekstraksi/training tidak disertakan langsung karena ukura
 2. Jalankan proses augmentasi data:
    ```bash
    python augmentasi.py
-4. Jalankan proses ekstraksi encoding wajah:
+3. Jalankan proses ekstraksi encoding wajah:
    ```bash
    python extract_face_data.py
-5. Latih model SVM menggunakan data encoding:
+4. Latih model SVM menggunakan data encoding:
    ```bash
    python train.py
-6. Jalankan sistem klasifikasi wajah secara real-time:
+5. Jalankan sistem klasifikasi wajah secara real-time:
    ```bash
    python realtime.py
 
